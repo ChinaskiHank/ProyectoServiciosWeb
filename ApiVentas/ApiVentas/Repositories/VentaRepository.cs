@@ -1,5 +1,6 @@
 ﻿using ApiVentas.DbContexts;
 using ApiVentas.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiVentas.Repositories
 {
@@ -11,6 +12,12 @@ namespace ApiVentas.Repositories
         {
             this.dbContext = dbContext;
         }
+
+        public async Task<IEnumerable<Venta>> GetVenta()
+        {
+            return await dbContext.Ventas.ToListAsync();
+        }
+
         public async Task<bool> PlaceOrder(Venta venta)
         {
             try
