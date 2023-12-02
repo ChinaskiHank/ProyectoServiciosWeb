@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlatos", "ApiPlatos\ApiPlatos.csproj", "{5C179F00-E050-4059-871E-C5FF82EB1302}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C179F00-E050-4059-871E-C5FF82EB1302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C179F00-E050-4059-871E-C5FF82EB1302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C179F00-E050-4059-871E-C5FF82EB1302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C179F00-E050-4059-871E-C5FF82EB1302}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B31B01E-6F8F-4B14-AE2C-E7B116C778A1}
+	EndGlobalSection
+EndGlobal
