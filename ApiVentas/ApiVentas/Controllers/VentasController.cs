@@ -17,12 +17,12 @@ namespace ApiVentas.Controllers
 
         [HttpGet]
         [Route("ListaVentas")]
-        public async Task<ActionResult<IEnumerable<Venta>>> GetVenta()
+        public async Task<ActionResult<IEnumerable<DetalleVenta>>> GetVenta()
         {
             return StatusCode(StatusCodes.Status200OK, await ventasRepository.GetVenta());
         }
-        [HttpGet]
-        [Route("/GetVentas")]
+        [HttpPost]
+        [Route("GetVentas")]
         public async Task<bool> PlaceOrder(Venta venta)
         {
             return await ventasRepository.PlaceOrder(venta);
