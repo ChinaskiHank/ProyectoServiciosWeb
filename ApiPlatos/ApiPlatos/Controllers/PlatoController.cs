@@ -33,6 +33,13 @@ namespace ApiPlatos.Controllers
             return StatusCode(StatusCodes.Status200OK, await platosRepository.GetPlatoById(id));
         }
 
+        [HttpGet]
+        [Route("GetPlatosByCategoria/{id}")]
+        public async Task<ActionResult<IEnumerable<Plato>>> GetPlatosByCategoria(int id)
+        {
+            return StatusCode(StatusCodes.Status200OK, await platosRepository.GetPlatosByCategoria(id));
+        }
+
         [HttpPost]
         [Route("CrearPlato")]
         public async Task<ActionResult<Plato>> CreatePlatos(Plato plato)

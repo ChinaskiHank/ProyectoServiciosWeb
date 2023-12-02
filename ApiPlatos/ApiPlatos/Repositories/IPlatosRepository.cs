@@ -6,6 +6,7 @@ namespace ApiPlatos.Repositories
         public Task<IEnumerable<Plato>> GetPlato();
         public Task<IEnumerable<Plato>> GetPlato(int page, int size);
         public Task<Plato> GetPlatoById(int platoId);
+        public Task<IEnumerable<Plato>> GetPlatosByCategoria(int platoId);
         public Task<Plato> CreatePlato(Plato plato);
         public Task<Plato> UpdatePlato(Plato plato);
         public Task<bool> DeletePlato(int platoId);

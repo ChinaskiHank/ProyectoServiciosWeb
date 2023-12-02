@@ -5,7 +5,7 @@ using ApiPlatos.Exceptions;
 
 namespace ApiPlatos.Repositories
 {
-    public class PlatosRepository : IPlatosRepository
+    public class PlatosRepository : IPlatosRepository 
     {
         private readonly AppDbContext dbContext;
 
@@ -41,6 +41,21 @@ namespace ApiPlatos.Repositories
         public async Task<IEnumerable<Plato>> GetPlato(int page, int size)
         {
             var result = await dbContext.Platos.Skip(page * size).Take(size).ToListAsync();
+            if (result == null)
+            {
+                throw new Exception();
+
+            }
+            else if (result.Count == 0)
+            {
+                throw new NotFoundException("Lista de platos vacia");
+            }
+            return result;
+        }
+
+        public async Task<IEnumerable<Plato>> GetPlatosByCategoria(int id)
+        {
+            var result = await dbContext.Platos.Where(p => p.categoria == id).ToListAsync();
             if (result == null)
             {
                 throw new Exception();

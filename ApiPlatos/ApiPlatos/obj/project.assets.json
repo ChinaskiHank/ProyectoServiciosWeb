@@ -2438,23 +2438,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\nayel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\PROYECTO SERVICIOS\\ApiPlatos\\ApiPlatos\\ApiPlatos.csproj",
+      "projectUniqueName": "C:\\Users\\nayel\\Documents\\Proyecto Servicios\\ProyectoServiciosWeb\\ApiPlatos\\ApiPlatos\\ApiPlatos.csproj",
       "projectName": "ApiPlatos",
-      "projectPath": "C:\\Users\\USER\\Desktop\\PROYECTO SERVICIOS\\ApiPlatos\\ApiPlatos\\ApiPlatos.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\PROYECTO SERVICIOS\\ApiPlatos\\ApiPlatos\\obj\\",
+      "projectPath": "C:\\Users\\nayel\\Documents\\Proyecto Servicios\\ProyectoServiciosWeb\\ApiPlatos\\ApiPlatos\\ApiPlatos.csproj",
+      "packagesPath": "C:\\Users\\nayel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nayel\\Documents\\Proyecto Servicios\\ProyectoServiciosWeb\\ApiPlatos\\ApiPlatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nayel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2515,7 +2515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
